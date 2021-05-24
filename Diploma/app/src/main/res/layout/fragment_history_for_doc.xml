@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:id="@+id/fragment_doc_history"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+    <TextView
+        android:textSize="18sp"
+        android:text="История посещений пациентов:"
+        android:layout_width="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/doc_history_search"
+        android:hint="Поиск по пациентам"
+        android:layout_height="35dp"
+        style="@style/spinner_style"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"/>
+
+    <ListView
+        android:id="@+id/doc_history_view"
+        android:layout_width="match_parent"
+        android:layout_height="1400px" />
+
+</TableLayout>

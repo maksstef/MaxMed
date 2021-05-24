@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:id="@+id/fragment_change_doctor_data"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+    <EditText
+        android:id="@+id/profiles_doctors_search"
+        android:hint="Поиск по докторам"
+        android:layout_height="35dp"
+        style="@style/spinner_style"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"/>
+
+    <ListView
+        android:id="@+id/profiles_doctors_view"
+        android:layout_width="match_parent"
+        android:layout_height="1300px" />
+
+</TableLayout>

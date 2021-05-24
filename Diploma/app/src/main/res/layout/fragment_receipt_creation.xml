@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+    <TextView
+        android:textSize="18sp"
+        android:text="ФИО пациента:"
+        android:layout_width="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/rc_patientNameSpinner"
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:textColor="#808080"
+        android:outlineSpotShadowColor="#808080"
+        android:outlineAmbientShadowColor="#808080"
+        android:layout_marginBottom="10dp"
+        style="@style/spinner_style"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Наименование препарата"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rc_drugName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="До какого числа действительно"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rc_lastDate"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/rc_create_receipt"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Выписать рецепт"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</TableLayout>

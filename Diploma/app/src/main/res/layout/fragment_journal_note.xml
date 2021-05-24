@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+
+    <!--<TextView
+        android:textAlignment="center"
+        android:text="Ваши данные"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>-->
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Дата:"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/journal_note_date"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Причина прихода"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/journal_note_issue"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Запись врача"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!-- android:gravity="start" android:gravity="top" -->
+    <EditText
+        android:id="@+id/journal_note_decision"
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/changeJournalNote"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Сохранить изменения"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/deleteJournalNote"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Удалить эту запись"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</TableLayout>

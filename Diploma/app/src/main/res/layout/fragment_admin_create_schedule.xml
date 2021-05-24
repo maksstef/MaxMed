@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+    <TextView
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Создание расписания врачам"
+        android:layout_width="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Выберите врача:"
+        android:layout_width="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/cs_doctors_Spinner"
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:textColor="#808080"
+        android:outlineSpotShadowColor="#808080"
+        android:outlineAmbientShadowColor="#808080"
+        android:layout_marginBottom="10dp"
+        style="@style/spinner_style"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Выберите дату:"
+        android:layout_width="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cs_schedule_date"
+        android:hint="дд.мм.гггг"
+        android:layout_height="35dp"
+        style="@style/spinner_style"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Выберите время:"
+        android:layout_width="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/cs_times_Spinner"
+        android:layout_width="match_parent"
+        android:textColor="#808080"
+        android:layout_height="35dp"
+        style="@style/spinner_style"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/createSchedule"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Создать"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</TableLayout>

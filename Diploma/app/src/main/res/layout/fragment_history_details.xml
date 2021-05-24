@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Информация о приеме"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Ф.И.О доктора"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/hd_doc_name"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:editable="false"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Дата посещения"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/hd_appointment_date"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:editable="false"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Время посещения"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/hd_appointment_time"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:editable="false"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/unSignFromAppointment"
+        android:layout_marginBottom="-500px"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Выписаться"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+
+</TableLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf4de"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Данные доктора"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Ф.И.О"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/change_doc_fullname"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Логин"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/change_doc_login"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Пароль"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/change_doc_password"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Учреждение"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<EditText
+        android:id="@+id/change_doc_building"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>-->
+
+    <Spinner
+        android:id="@+id/cdd_buildings_Spinner"
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:textColor="#808080"
+        android:outlineSpotShadowColor="#808080"
+        android:outlineAmbientShadowColor="#808080"
+        android:layout_marginBottom="10dp"
+        style="@style/spinner_style"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Отделение"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<EditText
+        android:id="@+id/change_doc_department"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>-->
+
+    <Spinner
+        android:id="@+id/cdd_departmens_Spinner"
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:textColor="#808080"
+        android:outlineSpotShadowColor="#808080"
+        android:outlineAmbientShadowColor="#808080"
+        android:layout_marginBottom="10dp"
+        style="@style/spinner_style"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/changeDoctorBtn"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Сохранить"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:background="@color/color2"
+        android:id="@+id/deleteDoctorBtn"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:text="Удалить"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</TableLayout>

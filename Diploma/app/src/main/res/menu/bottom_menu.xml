@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/d_doctor_schedule"
+        android:title="Приемы"
+        android:icon="@drawable/history"/>
+    <item
+        android:id="@+id/d_patients_journal"
+        android:title="Журнал"
+        android:icon="@drawable/ic_book_black_24dp"/>
+    <item
+        android:id="@+id/d_patient_history"
+        android:title="История посещений"
+        android:icon="@drawable/ic_assignment_black_24dp"/>
+    <item
+        android:id="@+id/d_create_receipt"
+        android:title="Выписка рецепта"
+        android:icon="@drawable/create"/>
+</menu>

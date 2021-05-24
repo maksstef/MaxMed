@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/p_patient_history"
+        android:title="Посещения"
+        android:icon="@drawable/history"/>
+    <item
+        android:id="@+id/p_make_appointment"
+        android:title="Запись на прием"
+        android:icon="@drawable/create"/>
+    <item
+        android:id="@+id/p_receipts"
+        android:title="Рецепты"
+        android:icon="@drawable/receipts5"/>
+    <item
+        android:id="@+id/p_account"
+        android:title="Профиль"
+        android:icon="@drawable/account"/>
+</menu>

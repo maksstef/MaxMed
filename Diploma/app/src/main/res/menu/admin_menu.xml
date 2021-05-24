@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/a_create_schedule"
+        android:title="Расписание"
+        android:icon="@drawable/history"/>
+    <item
+        android:id="@+id/a_change_doctor"
+        android:title="Изменение доктора"
+        android:icon="@drawable/create"/>
+    <item
+        android:id="@+id/a_create_doctor"
+        android:title="Создание доктора"
+        android:icon="@drawable/ic_add_black_24dp"/>
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/bodyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdf4de"
+        android:layout_above="@id/main_navigation"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_navigation"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/main_menu"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"/>
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/bodyFragment"
+        android:layout_width="200dp"
+        android:background="#fdf4de"
+        android:layout_height="550dp">
+    </FrameLayout>
+
+    <TableRow android:layout_marginBottom="0dp"
+        android:background="@color/color2"
+        android:layout_height="70dp">
+
+        <ImageButton
+            android:id="@+id/historybtn"
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/color2"
+            android:tint="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/history" />
+
+        <ImageButton
+            android:id="@+id/appointmentbtn"
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/color2"
+            android:tint="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/create" />
+
+        <ImageButton
+            android:id="@+id/receiptsbtn"
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/color2"
+            android:tint="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/receipts2" />
+
+
+        <ImageButton
+            android:id="@+id/profilebtn"
+            android:layout_width="96dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/color2"
+            android:tint="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/account" />
+
+    </TableRow>
+
+</TableLayout>-->
